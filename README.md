@@ -11,7 +11,7 @@ plain sight (but it is unreadable without the key) while in steganography the me
 inside another object so no one know that a communication even occurred.
 
 ### Instructions
-After launching the script.
+After launching the script, follow the following instructions.
 
 #### To hide text into an image
 1. Write your secret text in the text field
