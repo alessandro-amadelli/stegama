@@ -40,7 +40,7 @@ def Decode():
     img_file = ImgPathLabel["text"]
     decoded_text = lsbset.reveal(img_file, generators.eratosthenes())
 
-    inp_text.delete("1.0", END)
+    ClearText()
     inp_text.insert("1.0", decoded_text)
 
     messagebox.showinfo("Decode", f"Secret text extracted from image")

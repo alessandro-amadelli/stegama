@@ -23,3 +23,10 @@ After launching the script.
 1. Click the "Decode" button
 2. The tool prompts you to choose the image with the hidden text
 3. You can find the revealed text in the text field
+
+### Specifications
+StegAma make use of the **stegano** python package to implement the LSB steganography technique with
+the use of sets.
+Allowed input image type (so far) are: .JPG, .JPEG, .PNG
+
+The GUI is built with the Tkinter package.
